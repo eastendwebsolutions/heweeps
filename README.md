@@ -9,15 +9,17 @@ Static HTML site for **heweeps.com** — the current live design, not the Mastro
 | `main` | Matches production heweeps.com (deploy only when ready to go live) |
 | `dev` | Client preview: Michael’s requested edits |
 
-## Preview (dev)
+## Preview (dev) — share with client
 
-After push to `dev`, open the Vercel **Preview** URL for that branch (see Vercel dashboard or deployment comment).
+**Stable preview URL:** `https://heweeps-git-dev-xc-om.vercel.app` (after Vercel is connected)
 
-Typical paths:
+| Page | URL |
+|------|-----|
+| Home | https://heweeps-git-dev-xc-om.vercel.app/ |
+| 7th Hole Pebble Beach | https://heweeps-git-dev-xc-om.vercel.app/7th_hole_pebble.htm |
+| Online store | https://heweeps-git-dev-xc-om.vercel.app/store/index.htm |
 
-- Home: `/index.html` or `/`
-- 7th Hole: `/7th_hole_pebble.htm`
-- Store: `/store/index.htm`
+`main` matches live heweeps.com today. Merge `dev` → `main` only when ready to replace production.
 
 ## Local
 
