@@ -11,13 +11,15 @@ Static HTML site for **heweeps.com** — the current live design, not the Mastro
 
 ## Preview (dev) — share with client
 
-**Stable preview URL:** `https://heweeps-git-dev-xc-om.vercel.app` (after Vercel is connected)
+**Client preview (dev branch):** https://heweeps-git-dev-xc-om.vercel.app
 
 | Page | URL |
 |------|-----|
 | Home | https://heweeps-git-dev-xc-om.vercel.app/ |
 | 7th Hole Pebble Beach | https://heweeps-git-dev-xc-om.vercel.app/7th_hole_pebble.htm |
 | Online store | https://heweeps-git-dev-xc-om.vercel.app/store/index.htm |
+
+**Production baseline (main branch):** https://heweeps.vercel.app — matches today’s live site; not yet wired to heweeps.com DNS.
 
 `main` matches live heweeps.com today. Merge `dev` → `main` only when ready to replace production.
 
